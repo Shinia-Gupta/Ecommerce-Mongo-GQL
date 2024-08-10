@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "private": true,
-  "proxy": "http://localhost:5000/graphql",
+  "proxy": "https://ecommerce-mongo-lp37ppbjm-shinia-guptas-projects.vercel.app/",
   "type": "module",
 
   "scripts": {

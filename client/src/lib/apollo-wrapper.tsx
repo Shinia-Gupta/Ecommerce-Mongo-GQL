@@ -14,7 +14,7 @@ import {
 
 function makeClient() {
   const httpLink = new HttpLink({
-      uri: "http://localhost:5000/graphql",
+      uri: "https://ecommerce-mongo-lp37ppbjm-shinia-guptas-projects.vercel.app/",
   });
 
   return new NextSSRApolloClient({
