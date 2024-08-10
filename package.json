@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "private": true,
-  "proxy": "https://ecommerce-mongo-lp37ppbjm-shinia-guptas-projects.vercel.app/",
   "type": "module",
 
   "scripts": {

@@ -4,7 +4,7 @@ export function initializeApollo(initialState = null) {
   const client = new ApolloClient({
     ssrMode: typeof window === "undefined",
     link: new HttpLink({
-      uri: "https://ecommerce-mongo-lp37ppbjm-shinia-guptas-projects.vercel.app/"
+      uri: "https://ecommerce-mongo-gql.vercel.app/"
     }),
     cache: new InMemoryCache().restore(initialState || {}),
   });
